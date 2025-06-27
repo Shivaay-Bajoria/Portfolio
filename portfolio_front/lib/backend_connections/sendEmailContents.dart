@@ -10,7 +10,8 @@ Future<void> sendEmail(
   String name,
   String message,
 ) async {
-  const String url = "http://localhost:4321/contact";
+  const String url =
+      "https://portfolioback-production-c381.up.railway.app/contact";
 
   final response = await http.post(
     Uri.parse(url),
