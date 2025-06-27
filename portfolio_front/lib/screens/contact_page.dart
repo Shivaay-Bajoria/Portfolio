@@ -123,7 +123,7 @@ class _ContactPageState extends State<ContactPage> {
                         : SingleChildScrollView(
                             child: Container(
                               width: wt * 0.8,
-                              height: ht * 1,
+                              height: ht * 1.1,
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(360),
                                 border: Border.all(color: Color(0xFFC08457)),
@@ -168,7 +168,7 @@ class _ContactPageState extends State<ContactPage> {
                                     ),
                                   ),
                                   SizedBox(height: ht * 0.05),
-                                  ContactForm(ht: ht * 0.42, wt: wt * 0.6),
+                                  ContactForm(ht: ht * 0.5, wt: wt * 0.6),
                                   SizedBox(height: ht * 0.05),
                                   Text(
                                     "Or Contact me on Whatsapp",
@@ -181,7 +181,7 @@ class _ContactPageState extends State<ContactPage> {
                                     ),
                                   ),
                                   SizedBox(height: ht * 0.03),
-                                  WhatsappButton(ht: ht * 0.1, wt: wt * 0.2),
+                                  WhatsappButton(ht: ht * 0.1, wt: wt * 0.25),
                                 ],
                               ),
                             ),

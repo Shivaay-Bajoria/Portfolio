@@ -18,27 +18,34 @@ class _navBarItemState extends State<navBarItem> {
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: widget.ontap,
-      onTapDown: (_) {
-        setState(() {
-          isPressed = true;
-        });
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        bool isMobile = constraints.maxWidth < 800;
+        return InkWell(
+          onTap: widget.ontap,
+          onTapDown: (_) {
+            setState(() {
+              isPressed = true;
+            });
+          },
+          onTapUp: (_) {
+            setState(() {
+              isPressed = false;
+            });
+          },
+          child: AnimatedContainer(
+            duration: Duration(milliseconds: 150),
+            transform: Matrix4.identity()..scale(isPressed ? 0.93 : 1),
+            curve: Curves.bounceIn,
+            child: Text(
+              widget.title,
+              style: GoogleFonts.newsreader(
+                textStyle: TextStyleHelp.navBarItems,
+              ),
+            ),
+          ),
+        );
       },
-      onTapUp: (_) {
-        setState(() {
-          isPressed = false;
-        });
-      },
-      child: AnimatedContainer(
-        duration: Duration(milliseconds: 150),
-        transform: Matrix4.identity()..scale(isPressed ? 0.93 : 1),
-        curve: Curves.bounceIn,
-        child: Text(
-          widget.title,
-          style: GoogleFonts.newsreader(textStyle: TextStyleHelp.navBarItems),
-        ),
-      ),
     );
   }
 }

@@ -7,6 +7,7 @@ class TextStyleHelp {
   static final TextStyle navBarItems = TextStyle(
     fontSize: 20,
     fontWeight: FontWeight.normal,
+    color: Colors.white,
   );
 
   static final TextStyle aboutMeText = TextStyle(
