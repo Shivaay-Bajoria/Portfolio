@@ -1,0 +1,45 @@
+
+[
+  {
+    "title": "Portfolio Website",
+    "description": "A full-stack Flutter Web portfolio with smooth navigation and email functionality.",
+    "longDescription": "A developer portfolio website built using Flutter Web. It includes smooth scrolling, clean UI sections (About, Projects, Contact), and integrates with a Node.js backend to handle form submissions via Gmail SMTP. Designed to be responsive and performance-optimized across all screen sizes.",
+    "githubUrl": "https://github.com/Shivaay-Bajoria/Portfolio_FlutterWeb",
+    "techStack": ["Flutter", "Dart", "Node.js"]
+  },
+  {
+    "title": "AI Chatbot",
+    "description": "A Flutter chatbot powered by Google’s Gemini API for real-time AI conversations.",
+    "longDescription": "This project demonstrates how to integrate Google's Gemini API into a Flutter application to create a conversational AI chatbot. It supports real-time streaming, intuitive UI/UX, and simulates intelligent dialogue. It's a hands-on showcase of modern LLM integration in mobile apps.",
+    "githubUrl": "https://github.com/Shivaay-Bajoria/AI_Chatbot",
+    "techStack": ["Flutter", "Dart", "Gemini API"]
+  },
+  {
+    "title": "ShopSphere",
+    "description": "A Flutter e-commerce UI with product, cart, and checkout components.",
+    "longDescription": "ShopSphere is a complete frontend prototype of an e-commerce app built in Flutter. It includes product listings, a shopping cart, and checkout flow with Firebase integration. This project highlights reusable UI components and scalable layout practices suitable for real-world apps.",
+    "githubUrl": "https://github.com/Shivaay-Bajoria/ShopSphere",
+    "techStack": ["Flutter", "Dart", "Firebase"]
+  },
+  {
+    "title": "Stock Market Predictor",
+    "description": "A Python-based ML tool to forecast stock price trends using historical data.",
+    "longDescription": "A machine learning project that uses historical stock data to predict future price movements. Built using Pandas and Scikit-learn, it includes data preprocessing, model training, and evaluation. It also visualizes stock trends to assist in making better investment decisions.",
+    "githubUrl": "https://github.com/Shivaay-Bajoria/Stock-Market-Prediction",
+    "techStack": ["Python", "Pandas", "Scikit-learn"]
+  },
+  {
+    "title": "Breast Cancer Prediction",
+    "description": "An ML model to predict breast cancer using real clinical datasets.",
+    "longDescription": "This classification project predicts breast cancer outcomes using machine learning algorithms like Keras and Scikit-learn. It applies feature scaling, model tuning, and performance evaluation techniques (accuracy, recall, F1-score), providing a reliable and interpretable health prediction tool.",
+    "githubUrl": "https://github.com/Shivaay-Bajoria/Breast-Cancer-Prediction",
+    "techStack": ["Python", "Keras", "Scikit-learn"]
+  },
+  {
+    "title": "Food Recipe App",
+    "description": "An Android app to explore food recipes by category, ingredients, and instructions.",
+    "longDescription": "An Android mobile app developed using Java that allows users to browse food recipes by categories and view detailed ingredients and cooking instructions. The app is clean, responsive, and designed for beginner-to-intermediate Android development learning.",
+    "githubUrl": "https://github.com/Shivaay-Bajoria/Food_RecipeApp",
+    "techStack": ["Java", "Android"]
+  }
+]
